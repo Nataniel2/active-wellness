@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our range of high-quality wellness products.">
+    <title>Products - active wellness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">active wellness</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+        <h2 data-key="featured_products">Featured Products</h2>
+        <div class="products-grid">
+            <!-- Nuvialab -->
+            <div class="product-card">
+                <img src="0x0.png" alt="Nuvialab" class="product-image">
+                <h3 data-key="nuviala">Nuvialab</h3>
+                <p data-key="nuvialab_desc">Nuvialab helps support healthy weight management and enhances overall wellness.</p>
+                <a href="https://nplink.net/zpjn1fnj" class="btn">Buy Now</a>
+            </div>
+
+            <!-- Crave Burner -->
+            <div class="product-card">
+                <img src="Crave_Burner_PRO5.jpg" alt="Crave Burner" class="product-image">
+                <h3 data-key="crave_burner_name">Crave Burner</h3>
+                <p data-key="crave_burner_desc">Crave Burner aids in controlling appetite and reducing cravings effectively.</p>
+                <a href"https://nplink.net/mzz78fpo"  class="btn">Buy Now</a>
+            </div>
+
+            <!-- Ayevita Plus -->
+            <div class="product-card">
+                <img src="Eyevita-Plus-PRO6.jpg" alt="Ayevita Plus" class="product-image">
+                <h3 data-key="ayevida_plus_name">Ayevita Plus</h3>
+                <p data-key="ayevida_plus_desc">Ayevita Plus supports skin health and promotes natural beauty from within.</p>
+                <a href="https://nplink.net/fe66seou" class="btn">Buy Now</a>
+            </div>
+
+            <!-- Prostan Plus -->
+            <div class="product-card">
+                <img src="Prostan-Plus-PRO4.jpg" alt="Prostan Plus" class="product-image">
+                <h3 data-key="prostan_plus_name">Prostan Plus</h3>
+                <p data-key="prostan_plus_desc">Prostan Plus is designed to support prostate health and overall wellness.</p>
+                <a href="https://nplink.net/7djs2c8j" class="btn">Buy Now</a>
+            </div>
+
+            <!-- Moringa Actives -->
+            <div class="product-card">
+                <img src="Moringa-Actives-pro-07.jpg" alt="Moringa Actives" class="product-image">
+                <h3 data-key="moringa_actives_name">Moringa Actives</h3>
+                <p data-key="moringa_actives_desc">Moringa Actives provides essential nutrients and supports energy levels.</p>
+                <a href="https://nplink.net/rbsngo91" class="btn">Buy Now</a>
+            </div>
+
+            <!-- Revamim Stretch Mark -->
+            <div class="product-card">
+                <img src="Revamin-Stretch-Mark-pro-06.jpg" alt="Revamim Stretch Mark" class="product-image">
+                <h3 data-key="revamim_stretch_mark_name">Revamim Stretch Mark</h3>
+                <p data-key="revamim_stretch_mark_desc">Revamim helps reduce the appearance of stretch marks and nourishes the skin.</p>
+                <a href="https://nplink.net/easzay2h" class="btn">Buy Now</a>
+            </div>
+
+            <!-- Restilen -->
+            <div class="product-card">
+                <img src="Restilen_am_2.jpg" alt="Restilen" class="product-image">
+                <h3 data-key="restilen_name">Restilen</h3>
+                <p data-key="restilen_desc">Restilen promotes relaxation and helps reduce stress and anxiety.</p>
+                <a href="https://nplink.net/crj4tioe" class="btn">Buy Now</a>
+            </div>
+
+            <!-- Nutrigo Lab Strength -->
+            <div class="product-card">
+                <img src="pro_nutrigolab_strength_3.jpg""" alt="Nutrigo Lab Strength" class="product-image">
+                <h3 data-key="nutrigo_lab_strength_name">Nutrigo Lab Strength</h3>
+                <p data-key="nutrigo_lab_strength_desc">Nutrigo Lab Strength supports muscle growth and enhances performance.</p>
+                <a href="https://nplink.net/r7r8fs35" class="btn">Buy Now</a>
+            </div>
+
+            <!-- Collagen Select -->
+            <div class="product-card">
+                <img src="amateur_collagenselect_6.jpg" alt="Collagen Select" class="product-image">
+                <h3 data-key="collagen_select_name">Collagen Select</h3>
+                <p data-key="collagen_select_desc">Collagen Select promotes healthy skin and supports joint health.</p>
+                <a href="https://nplink.net/j264ai1h" class="btn">Buy Now</a>
+            </div>
+        </div>
+        <a href="products.html" class="view-all btn">View All Products</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 active wellness. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script>
+    // Seleciona o elemento de cabeçalho
+    const header = document.querySelector('header');
+    let lastScrollTop = 0;
+
+    window.addEventListener('scroll', function() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        // Se o usuário estiver rolando para baixo, esconda o cabeçalho
+        if (scrollTop > lastScrollTop) {
+            header.style.top = '-700px'; // Ajuste conforme necessário
+        } else {
+            // Se o usuário estiver rolando para cima, mostre o cabeçalho
+            header.style.top = '10';
+        }
+
+        lastScrollTop = scrollTop;
+    });
+</script>
+</body>
+</html>

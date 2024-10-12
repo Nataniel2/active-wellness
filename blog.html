@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the benefits of our wellness products and how they can enhance your daily life.">
+    <title>Blog - active wellness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">active wellness</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Blog Hero Section -->
+    <section class="blog-hero">
+        <h1>Our Blog</h1>
+        <p>Discover the Benefits of Our Products for Your Health & Wellness</p>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section class="blog-posts">
+        <div class="container">
+            <h2>Featured Products and Their Benefits</h2>
+
+            <!-- Blog Post 1 -->
+            <div class="blog-post">
+                <h3>Nuvialab: Your Path to Natural Wellness</h3>
+                <p class="post-date">Posted on October 10, 2024</p>
+                <p>
+                    Nuvialab is designed to help you achieve your health goals naturally. This supplement supports weight management and boosts energy levels, making it a perfect addition to your daily routine.
+                </p>
+                <h4>How to Use:</h4>
+                <p>
+                    Take two capsules daily with water before meals for optimal results. Incorporate a balanced diet and regular exercise for the best outcome.
+                </p>
+                <h4>Why Buy:</h4>
+                <p>
+                    Nuvialab offers a natural approach to weight management, helping you feel more energized and confident throughout your day.
+                </p>
+                <a href="https://nplink.net/zpjn1fnj" class="btn">Learn More</a>
+            </div>
+
+            <!-- Blog Post 2 -->
+            <div class="blog-post">
+                <h3>Crave Burner: Control Your Cravings</h3>
+                <p class="post-date">Posted on October 5, 2024</p>
+                <p>
+                    Struggling with cravings? Crave Burner is formulated to help suppress appetite and curb unhealthy snacking, allowing you to stick to your dietary goals.
+                </p>
+                <h4>How to Use:</h4>
+                <p>
+                    Take one capsule before meals. Combine with a healthy diet to experience the full benefits.
+                </p>
+                <h4>Why Buy:</h4>
+                <p>
+                    With Crave Burner, you can take control of your eating habits and make healthier choices, supporting your journey towards a better you.
+                </p>
+                <a href="https://nplink.net/mzz78fpo" class="btn">Learn More</a>
+            </div>
+
+            <!-- Blog Post 3 -->
+            <div class="blog-post">
+                <h3>Ayevita Plus: Boost Your Immune System</h3>
+                <p class="post-date">Posted on September 30, 2024</p>
+                <p>
+                    Ayevita Plus is packed with essential vitamins and minerals that help strengthen your immune system, keeping you healthy and resilient against illness.
+                </p>
+                <h4>How to Use:</h4>
+                <p>
+                    Take one tablet daily with food for the best results. Regular use is key to maintaining optimal health.
+                </p>
+                <h4>Why Buy:</h4>
+                <p>
+                    Ayevita Plus provides the nutrients your body needs to thrive, making it an essential part of your daily health regimen.
+                </p>
+                <a href="https://nplink.net/fe66seou" class="btn">Learn More</a>
+            </div>
+
+            <!-- Blog Post 4 -->
+            <div class="blog-post">
+                <h3>Prostan Plus: Support Your Prostate Health</h3>
+                <p class="post-date">Posted on September 25, 2024</p>
+                <p>
+                    Prostan Plus is formulated specifically for men’s health, supporting prostate function and urinary health with natural ingredients.
+                </p>
+                <h4>How to Use:</h4>
+                <p>
+                    Take two soft gels daily with meals to maintain prostate health.
+                </p>
+                <h4>Why Buy:</h4>
+                <p>
+                    By choosing Prostan Plus, you're investing in your long-term health and wellness, ensuring a better quality of life.
+                </p>
+                <a href="https://nplink.net/7djs2c8j" class="btn">Learn More</a>
+            </div>
+
+            <!-- Blog Post 5 -->
+            <div class="blog-post">
+                <h3>Moringa Actives: The Superfood Supplement</h3>
+                <p class="post-date">Posted on September 20, 2024</p>
+                <p>
+                    Moringa Actives is rich in antioxidants and nutrients, making it a powerful addition to your diet. It helps boost energy, improve digestion, and enhance overall health.
+                </p>
+                <h4>How to Use:</h4>
+                <p>
+                    Mix one scoop with your favorite smoothie or drink daily for a nutritious boost.
+                </p>
+                <h4>Why Buy:</h4>
+                <p>
+                    Incorporating Moringa Actives into your routine helps you harness the power of superfoods for better health and vitality.
+                </p>
+                <a href="https://nplink.net/rbsngo91" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bem Estar Activo. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script>
+    // Seleciona o elemento de cabeçalho
+    const header = document.querySelector('header');
+    let lastScrollTop = 0;
+
+    window.addEventListener('scroll', function() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        // Se o usuário estiver rolando para baixo, esconda o cabeçalho
+        if (scrollTop > lastScrollTop) {
+            header.style.top = '-700px'; // Ajuste conforme necessário
+        } else {
+            // Se o usuário estiver rolando para cima, mostre o cabeçalho
+            header.style.top = '10';
+        }
+
+        lastScrollTop = scrollTop;
+    });
+</script>
+</body>
+</html>
